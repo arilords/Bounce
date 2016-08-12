@@ -1,0 +1,54 @@
+body{
+  background: url("http://www.angryanimator.com/tut/pic/001_bouncingball/bal01.gif");
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  height:100vh;
+  width:100vw;
+}
+div{
+  height:4em;
+  width:4em;
+  border:1px solid black;
+  border-radius:50%;
+  background-color:red;
+  position:relative;
+  top:3em;
+  left:7.4em;
+  animation-timing-function: linear;
+  animation-name: bounce;
+  animation-duration:15s;
+}
+
+@-moz-keyframes bounce {
+/*1     0%   {left:7.4em;top:3em;}*/
+/*2     7%   {left:15em;top:6em;}*/
+/*3     11%  {left:18em;top:9em;}*/
+/*4     16%  {left:23em;top:18em;}*/
+/*5     18%  {left:24em;top:22em;height:4em;width:4em;}*/
+/*6     21%  {left:27em;top:29em;height:5em;width:3em;-moz-transform:rotate(-15deg);}*/
+/*7     23%  {left:26.8em;top:34.4em;height:3em;width:7em;-moz-transform:rotate(0deg);}*/
+/*8*/     27%  {left:28em;top:25em;height:5em;width:4em;-moz-transform:rotate(90deg);}
+/*9*/     34%  {left:30em;top:20em;height:4em;width:4em;-moz-transform:rotate(0deg);}
+/*10*/    40%  {left:32em;top:14em;}
+/*11*/    46%  {left:34em;top:13.96em;}
+/*12*/    52%  {left:35em;top:12em;}
+/*13*/    58%  {left:41em;top:15em;}
+/*14*/    64%  {left:44em;top:22em;}
+/*15*/    67%  {left:45em;top:30em;height:5em;width:4em;-moz-transform:rotate(-15deg);}
+/*16*/    70%  {left:47em;top:34.4em;height:7em;width:4em;-moz-transform:rotate(105deg);}
+/*17*/    0%   {left:7.4em;top:3em;}
+/*18*/    0%   {left:7.4em;top:3em;}
+/*19*/    0%   {left:7.4em;top:3em;}
+/*20*/    0%   {left:7.4em;top:3em;}
+/*21*/    0%   {left:7.4em;top:3em;}
+/*22*/    0%   {left:7.4em;top:3em;}
+/*23*/    0%   {left:7.4em;top:3em;}
+/*24*/    0%   {left:7.4em;top:3em;}
+/*25*/    0%   {left:7.4em;top:3em;}
+/*26*/    0%   {left:7.4em;top:3em;}
+/*27*/    0%   {left:7.4em;top:3em;}
+/*28*/    0%   {left:7.4em;top:3em;}
+/*29*/    0%   {left:7.4em;top:3em;}
+/*30*/    0%   {left:7.4em;top:3em;}
+/*31*/    1000%   {left:7.4em;top:3em;}
+}
