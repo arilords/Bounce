@@ -38,7 +38,7 @@ div{
 /*15*/    67%  {left:45em;top:30em;height:5em;width:4em;-moz-transform:rotate(-15deg);}
 /*16*/    70%  {left:47em;top:34.4em;height:7em;width:4em;-moz-transform:rotate(105deg);}
 
-/*17*/    77%   {left:7.4em;top:3em;}
+/*17*/    77%   {left:em;top:30em;height:5em;width:4em;-moz-transform:rotate(-15deg);}
 /*18*/    78%   {left:7.4em;top:3em;}
 /*19*/    82%   {left:7.4em;top:3em;}
 /*20*/    86%   {left:7.4em;top:3em;}
