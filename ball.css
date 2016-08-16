@@ -1,5 +1,5 @@
 body{
-  background: url("http://www.angryanimator.com/tut/pic/001_bouncingball/bal01.gif");
+  background: url("http://samdani.com.bd/assets/bulkUpload/DSC-0083.jpg");
   background-repeat:no-repeat;
   background-size: 100% 100%;
   height:100vh;
@@ -14,9 +14,9 @@ div{
   position:relative;
   top:3em;
   left:7.4em;
-  animation-timing-function: linear;
-  animation-name: bounce;
-  animation-duration:15s;
+  animation:
+  bounce 15s linear infinite alternate, 
+  color 15s linear infinite alternate;
 }
 
 @-moz-keyframes bounce {
@@ -38,20 +38,19 @@ div{
 /*15*/    67%  {left:45em;top:30em;height:5em;width:4em;-moz-transform:rotate(-15deg);}
 /*16*/    70%  {left:47em;top:34.4em;height:7em;width:4em;-moz-transform:rotate(105deg);}
 
-/*17*/    77%   {left:em;top:30em;height:5em;width:4em;-moz-transform:rotate(-15deg);}
-/*18*/    78%   {left:7.4em;top:3em;}
-/*19*/    82%   {left:7.4em;top:3em;}
-/*20*/    86%   {left:7.4em;top:3em;}
-/*21*/    90%   {left:7.4em;top:3em;}
-/*22*/    94%   {left:7.4em;top:3em;}
-/*23*/    98%   {left:7.4em;top:3em;}
-/*24*/    %   {left:7.4em;top:3em;}
+/*17*/    77%   {left:47em;top:32em;height:5em;width:4em;-moz-transform:rotate(-15deg);}
+/*18*/    79%   {left:47em;top:28em;height:4em;width:4em;-moz-transform:rotate(0deg);}
+/*19*/    82%   {left:48em;top:25em;}
+/*20*/    86%   {left:49.5em;top:23em;}
+/*21*/    90%   {left:50em;top:20em;}
+/*22*/    94%   {left:53em;top:25em;}
+/*23*/    98%   {left:55em;top:30em;}
+/*24*/    100%   {left:51.5em;top:34.4em;}
 
-/*25*/    0%   {left:7.4em;top:3em;}
-/*26*/    0%   {left:7.4em;top:3em;}
-/*27*/    0%   {left:7.4em;top:3em;}
-/*28*/    0%   {left:7.4em;top:3em;}
-/*29*/    0%   {left:7.4em;top:3em;}
-/*30*/    0%   {left:7.4em;top:3em;}
-/*31*/    100%   {left:7.4em;top:3em;}
+}
+@-moz-keyframes color{
+  25% {background-color:red;}
+  50% {background-color:yellow;}
+  75% {background-color:blue;}
+  100% {background-color:red;}
 }
